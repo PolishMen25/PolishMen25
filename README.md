@@ -11,6 +11,8 @@
 </p>
 
 <p align="center">
+  <a href="https://polishmen25.github.io">IT Portfolio</a>
+  ·
   <a href="https://polishmen.fr">Portfolio</a>
   ·
   <a href="https://github.com/PolishMen25/sovereign-local-ai">Sovereign Local AI</a>
