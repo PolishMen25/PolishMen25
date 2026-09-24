@@ -16,6 +16,8 @@
   <a href="https://polishmen.fr">Portfolio</a>
   ·
   <a href="https://github.com/PolishMen25/sovereign-local-ai">Sovereign Local AI</a>
+  ·
+  <a href="https://github.com/PolishMen25/homelab-atlas">homelab-atlas</a>
 </p>
 
 ```text
@@ -74,7 +76,7 @@ A hands-on environment for learning, testing and running services deliberately �
 
 **Core themes:** HPE-based compute, Proxmox virtualisation, Synology storage, private services, segmented networking, backup validation and documentation that makes systems maintainable.
 
-## Featured project
+## Featured projects
 
 ### [Sovereign Local AI](https://github.com/PolishMen25/sovereign-local-ai)
 
@@ -87,6 +89,17 @@ A controlled, **CPU-only** local AI platform being designed for privacy, traceab
 - Security gates, provenance tracking, reproducible checks and explicit human approval.
 
 > The project is intentionally transparent about what is experimental, what is usable today and what remains gated.
+
+### [homelab-atlas](https://github.com/PolishMen25/homelab-atlas)
+
+A **read-only** inventory and documentation tool for a Proxmox VE + Synology DSM homelab — zero dependencies, Node.js 22.
+
+- Collects nodes, VMs/containers, VLANs, bridges, storage, disks and backups over each API, without ever writing.
+- Generates always-current Markdown + HTML documentation, including a per-VLAN address plan and a Mermaid topology.
+- Diffs each run against the last and raises health alerts with Nagios-style exit codes, ready for cron or a scheduled task.
+- Secrets stay in environment variables — never in config, snapshots, reports or logs; TLS verified by default.
+
+> Try it offline in one command: `node bin/atlas.js demo`.
 
 ## Principles
 
